@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    background-color: #000300;
+  }
+  @layer base{
+    button{
+      @apply bg-hara w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black
+    }
+  }
